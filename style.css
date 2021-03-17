@@ -1,0 +1,146 @@
+body {
+    background-color: #202124;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 1fr 12fr 1fr;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 6px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    margin: 10px;
+}
+
+#google-apps {
+    display: flex;
+    height: 24px;
+    width: 24px;
+    margin: 0;
+    padding: 12px;
+
+    border-radius: 50%;
+}
+
+#google-apps svg {
+    fill: white;
+    overflow: hidden;
+}
+
+#google-apps:hover {
+    background-color: #303134;
+}
+
+#btn-login {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #1a73e8;
+    background-color: #fff;
+    padding: 9px 15px;
+    border-style: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 4px;
+}
+
+#search-bar {
+    margin-top: 26px;
+    color: #fff;
+    background: #202124;
+    display: flex;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+
+    height: 46px;
+    width: 584px;
+}
+
+#search-bar:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+}
+
+#search-bar:focus {
+    outline-style: none;
+}
+
+#btn-container {
+    padding-top: 18px;
+    height: 70px;
+}
+
+.btn-search {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#contribution {
+    margin: 6px;
+    color: #fff;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+}
+
+#contribution a {
+    color: #688dee;
+}
+
+footer {
+    display: flex;
+    background-color: #171717;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #999da2;
+    margin: 0 14px;
+}
